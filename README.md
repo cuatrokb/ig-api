@@ -55,4 +55,4 @@ composer require raiym/instagram-php-scraper
 You can download it [here](https://getcomposer.org/download/).
 
 ## Examples
-See examples [here](https://github.com/cuatrokb/ig-php/tree/master/examples).
+See examples [here](https://github.com/cuatrokb/ig-api/tree/master/examples).
