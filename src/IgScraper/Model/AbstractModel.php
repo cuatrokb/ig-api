@@ -1,6 +1,6 @@
 <?php
 
-namespace InstagramScraper\Model;
+namespace IgScraper\Model;
 
 use InstagramScraper\Traits\ArrayLikeTrait;
 use InstagramScraper\Traits\InitializerTrait;

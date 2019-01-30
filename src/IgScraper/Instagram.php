@@ -1,18 +1,18 @@
 <?php
 
-namespace InstagramScraper;
+namespace IgScraper;
 
-use InstagramScraper\Exception\InstagramAuthException;
-use InstagramScraper\Exception\InstagramException;
-use InstagramScraper\Exception\InstagramNotFoundException;
-use InstagramScraper\Model\Account;
-use InstagramScraper\Model\Comment;
-use InstagramScraper\Model\Like;
-use InstagramScraper\Model\Location;
-use InstagramScraper\Model\Media;
-use InstagramScraper\Model\Story;
-use InstagramScraper\Model\Tag;
-use InstagramScraper\Model\UserStories;
+use IgScraper\Exception\InstagramAuthException;
+use IgScraper\Exception\InstagramException;
+use IgScraper\Exception\InstagramNotFoundException;
+use IgScraper\Model\Account;
+use IgScraper\Model\Comment;
+use IgScraper\Model\Like;
+use IgScraper\Model\Location;
+use IgScraper\Model\Media;
+use IgScraper\Model\Story;
+use IgScraper\Model\Tag;
+use IgScraper\Model\UserStories;
 use InvalidArgumentException;
 use phpFastCache\Cache\ExtendedCacheItemPoolInterface;
 use phpFastCache\CacheManager;
@@ -688,7 +688,7 @@ class Instagram
     private static function parseCookies($headers)
     {
         $rawCookies = isset($headers['Set-Cookie']) ? $headers['Set-Cookie'] : isset($headers['set-cookie']) ? $headers['set-cookie'] : [];
-        
+
         if (!is_array($rawCookies)) {
             $rawCookies = [$rawCookies];
         }
@@ -713,11 +713,11 @@ class Instagram
         }
 
         $cookies = $secure_cookies + $not_secure_cookies;
-        
+
         if (isset($cookies['csrftoken'])) {
             $this->userSession['csrftoken'] = $cookies['csrftoken'];
         }
-        
+
         return $cookies;
     }
 

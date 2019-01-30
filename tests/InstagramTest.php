@@ -1,7 +1,7 @@
 <?php
 
-use InstagramScraper\Instagram;
-use InstagramScraper\Model\Media;
+use IgScraper\Instagram;
+use IgScraper\Model\Media;
 use phpFastCache\CacheManager;
 use PHPUnit\Framework\TestCase;
 

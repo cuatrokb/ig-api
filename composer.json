@@ -6,12 +6,12 @@
     "scraper"
   ],
   "type": "library",
-  "homepage": "https://github.com/raiym/instagram-php-scraper",
+  "homepage": "https://github.com/cuatrokb/ig-api",
   "license": "MIT",
   "authors": [
     {
-      "name": "raiym",
-      "email": "r.kapishev@gmail.com"
+      "name": "Dilone",
+      "email": "dilone@outlook.com"
     }
   ],
   "require": {
@@ -26,10 +26,10 @@
   },
   "autoload": {
     "psr-0": {
-      "InstagramScraper": "src"
+      "IgScraper": "src"
     }
   },
   "support": {
-    "email": "r.kapishev@gmail.com"
+    "email": "dilone@outlook.com"
   }
 }

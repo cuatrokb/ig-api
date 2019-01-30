@@ -1,6 +1,6 @@
 <?php
 
-namespace InstagramScraper\Model;
+namespace IgScraper\Model;
 
 
 class Location extends AbstractModel
@@ -47,7 +47,7 @@ class Location extends AbstractModel
     protected $isLoaded = false;
 
     /**
-     * @var 
+     * @var
      */
     protected $modified;
 

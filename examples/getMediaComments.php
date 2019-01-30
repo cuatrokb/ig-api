@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-$instagram = \InstagramScraper\Instagram::withCredentials('username', 'password', 'path/to/cache/folder');
+$instagram = \IgScraper\Instagram::withCredentials('username', 'password', 'path/to/cache/folder');
 $instagram->login();
 
 // Get media comments by shortcode
@@ -27,6 +27,3 @@ echo "Profile picture url: {$account->getProfilePicUrl()}\n";
 $comments = $instagram->getMediaCommentsByCode('BG3Iz-No1IZ', 200, $comment->getId());
 
 // ...
-
-
-

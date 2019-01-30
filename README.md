@@ -1,5 +1,5 @@
-# Instagram PHP Scrapper
-This library is based on the Instagram web version. We develop it because nowadays it is hard to get an approved Instagram application. The purpose is to support every feature that the web desktop and mobile version support. 
+# Instagram PHP Scrapper API
+This library is based on the Instagram web version. We develop it because nowadays it is hard to get an approved Instagram application. The purpose is to support every feature that the web desktop and mobile version support.
 
 ## Code Example
 ```php
@@ -9,7 +9,7 @@ $account = $instagram->getAccountById(3);
 echo $account->getUsername();
 ```
 
-Some methods do not require authentication: 
+Some methods do not require authentication:
 ```php
 $instagram = new Instagram();
 $nonPrivateAccountMedias = $instagram->getMedias('kevin');
@@ -46,10 +46,7 @@ $account = $instagram->getAccount('kevin');
 
 ### Using composer
 
-```sh
-composer.phar require raiym/instagram-php-scraper
-```
-or 
+
 ```sh
 composer require raiym/instagram-php-scraper
 ```
@@ -58,7 +55,4 @@ composer require raiym/instagram-php-scraper
 You can download it [here](https://getcomposer.org/download/).
 
 ## Examples
-See examples [here](https://github.com/postaddictme/instagram-php-scraper/tree/master/examples).
-
-## Other
-Java library: https://github.com/postaddictme/instagram-java-scraper
+See examples [here](https://github.com/cuatrokb/ig-php/tree/master/examples).

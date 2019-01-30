@@ -1,6 +1,6 @@
 <?php
 
-namespace InstagramScraper\Model;
+namespace IgScraper\Model;
 
 /**
  * Class CarouselMedia

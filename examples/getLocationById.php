@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-$instagram = \InstagramScraper\Instagram::withCredentials('username', 'password', '/path/to/cache/folder');
+$instagram = \IgScraper\Instagram::withCredentials('username', 'password', '/path/to/cache/folder');
 $instagram->login();
 
 // Location id from facebook
@@ -14,4 +14,3 @@ echo "Latitude: {$location->getLat()}\n";
 echo "Longitude: {$location->getLng()}\n";
 echo "Slug: {$location->getSlug()}\n";
 echo "Is public page available: {$location->getHasPublicPage()}\n";
-
