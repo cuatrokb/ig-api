@@ -7,7 +7,7 @@ $instagram = new \IgScraper\Instagram();
 
 // For getting information about account you don't need to auth:
 
-$account = $instagram->getAccount('kevin');
+$account = $instagram->getAccount('_dilone24');
 
 // Available fields
 echo "Account info:\n";

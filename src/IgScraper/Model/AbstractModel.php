@@ -2,8 +2,8 @@
 
 namespace IgScraper\Model;
 
-use InstagramScraper\Traits\ArrayLikeTrait;
-use InstagramScraper\Traits\InitializerTrait;
+use IgScraper\Traits\ArrayLikeTrait;
+use IgScraper\Traits\InitializerTrait;
 
 /**
  * Class AbstractModel

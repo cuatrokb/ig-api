@@ -2,7 +2,7 @@
 
 namespace IgScraper\Model;
 
-use InstagramScraper\Endpoints;
+use IgScraper\Endpoints;
 
 /**
  * Class Media
